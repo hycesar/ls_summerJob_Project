@@ -1,0 +1,19 @@
+        <div class="text">
+            <img src="icons/import file.png">
+            <h1> You can import your files here, </h1>
+            <h2> we'll take care of the rest. </h2>
+        </div>
+
+<form action="/upload/sendfile" method="post" enctype="multipart/form-data">
+    <label for="file">
+        <div class="upload-btn-wrapper">
+            <div class="btn">Import File</div>
+            <input type="file" name="fileToReview" required/>
+        </div>
+    </label>
+        <button class="btn send-btn-wrapper" type="submit">Send File</button>
+</form>
+
+<div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>

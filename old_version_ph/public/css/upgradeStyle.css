@@ -1,0 +1,104 @@
+/*
+GENERAL STYLE GUIDELINES
+1. Font should always belong to the "Segoe UI" font family;
+2. Minimum of 10px between elements;
+3. Navbar should belong to all screens, this is already set on main.handlebars;
+4. The color pallette used is, in order of most used:
+    a. White #ffffff - for backgrounds
+    b. Blue #2680EB - for navbar, special items (i.e: buttons and icons) and highlights
+    c. Gray #707070 - for text
+5. Text should follow
+*/
+
+body {
+    font-family: 'Segoe UI light', Sans-Serif;
+}
+
+/* Navbar Properties */
+
+.nav{ 
+    display: flex;
+    justify-content: left;
+    background: #2680EB;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+}
+#checkmatelogo { 
+    padding: 0px 960px 0px 0px;
+    text-decoration: none;
+    color: white;
+} /*copy everything up to here */
+
+/* Text Properties */
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    color: #707070;
+    line-height: 0px;
+    padding: 140px 0px 0px;
+} 
+.text img {
+    padding: 0px 0px 10px;
+}
+.text h1 {
+    font-size: 17px;
+}
+.text h2{
+    font-size: 15px;
+}
+
+/* Button Properties */
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    left: 46%;
+    top: 10px /* Minimum of 10px between elements */
+}
+
+.btn {
+    color:white;
+    background-color: #2680EB;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.send-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    left: 38%;
+    top: 40px /* Minimum of 10px between elements */
+}
+
+.mt-2{
+    color:white;
+    background-color: #2680EB;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    margin-left: 50px;
+}

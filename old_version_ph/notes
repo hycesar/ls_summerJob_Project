@@ -1,0 +1,17 @@
+Dependence:
+1. 	Install matlab API
+A.  C:\Program Files\MATLAB\R2018a\extern\engines\python
+	python setup.py install
+
+Notes
+1.	Traceback (most recent call last):
+  File "C:\Users\Public\Documents\Git\Big-Project\scripts\mdl-slx\conversor-MDL-XML.pyw", line 13, in <module>
+    fileName = sys.argv[1]
+IndexError: list index out of range
+A. have to receive a path in arguments
+
+
+Bugs:
+1. "Desculpe, este tipo de arquivo não é aceito. Faça o upload de um arquivo que termine em '.docm', '.mdl' ou '.slx'."
+A. Create a folder public/uploads and try again.
+
